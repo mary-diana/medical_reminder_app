@@ -1,18 +1,15 @@
-# medical_reminder_app
+Healthcare & Medical Reminder Mobile Application
 
-A new Flutter project.
+A cross-platform mobile application built using Flutter and Firebase, designed to bridge patient adherence with hospital infrastructure. The system securely syncs prescription data and clinical appointments directly from hospital backends, providing automated, intelligent reminders to improve patient health outcomes.
 
-## Getting Started
+Key Features
+* Hospital Integration & Sync: Connects with clinical databases to automatically fetch active prescriptions, dosing instructions, and upcoming medical appointments.
 
-This project is a starting point for a Flutter application.
+* Smart Reminders & Notifications: Utilizes real-time database triggers and scheduled push notifications to ensure timely medication compliance.
 
-A few resources to get you started if this is your first Flutter project:
+* Cross-Platform Architecture: Built with Flutter for a seamless, native user experience across both Android and iOS devices.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Secure Cloud Infrastructure: Leverages Firebase Cloud Firestore and Authentication for real-time data sync, user session management, and encrypted data storage.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-This project involves integrating a medical reminder app with hospital management system
+Tech Stack
+Flutter • Dart • Firebase Cloud Firestore • Firebase Cloud Messaging (FCM) • Firebase Auth • REST APIs
